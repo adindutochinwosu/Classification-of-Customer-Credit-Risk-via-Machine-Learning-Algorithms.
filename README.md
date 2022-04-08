@@ -1,2 +1,6 @@
 # Classification-of-Customer-Credit-Risk-via-Machine-Learning-Algorithms.
 This project classified customers according to their credit risk using a customer transaction and demographic related dataset.
+
+Many financial institutions suffer the risk of losing money because of bad loans. In this project, three classification techniques namely, support vector machine (SVM), logistic regression and k-nearest neighbour (kNN) were implemented to classify a good risk and a bad risk customer.
+In machine learning, performance measurement is vital, when we are faced with a classification problem we can rely on  AUC – ROC. Receiver operating characteristics (ROC) produces a graphical illustration of a classifiers performance and the curve is created by evaluating and plotting the true positive against false positive for a single classifier. The area under the curve (AUC) measures the two-dimensional area under the entire ROC curve, the higher the AUC score the better the performance of the classifier (Steen 2020). The KNN model is the better performer.
+With a random number of nearest neighbour of 8, the KNN model achieved an AUC of 0.95. Optimizing KNN we then chose a range of values (1-10) for k and selected the value with the least error and most accuracy values.
